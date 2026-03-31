@@ -27,7 +27,6 @@ The agent-based model features three interconnected currency zones (EUR, USD, YE
 │   ├── history_*.json        # Per-replication economic trajectories
 │   ├── levers_*.json         # Per-replication governance decisions
 │   └── fig*.png              # Figures 1-5
-├── LICENSE
 └── README.md
 ```
 
@@ -81,4 +80,4 @@ The LLM used is [Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) via the vLLM in
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
