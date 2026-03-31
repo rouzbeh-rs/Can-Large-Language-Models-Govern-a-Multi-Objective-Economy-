@@ -1,16 +1,3 @@
-################################################################################
-#                   LLM GOVERNOR EXPERIMENT — vLLM OPTIMIZED
-#
-#  Key changes from previous version:
-#    - vLLM offline inference engine (~3-5x faster than HuggingFace)
-#    - max_new_tokens raised to 4096 for ALL LLM conditions (was 1024)
-#    - Truncation tracking on every decision
-#    - Full 3×2 design (thinking + nonthinking + rulebased)
-#
-#  Paste into ONE Colab cell. Requires L4 GPU (24GB).
-#  Estimated runtime: ~1.5-2 hours with vLLM speedup
-################################################################################
-
 import os, sys, time, json, re, warnings
 import numpy as np
 import pandas as pd
