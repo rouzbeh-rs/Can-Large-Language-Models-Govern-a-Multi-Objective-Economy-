@@ -30,14 +30,6 @@ The agent-based model features three interconnected currency zones (EUR, USD, YE
 └── README.md
 ```
 
-## Requirements
-
-- **Hardware**: NVIDIA GPU with ≥24GB VRAM (L4 or better recommended)
-- **Runtime**: Google Colab with L4 GPU (~1.5--2 hours)
-- **Python packages**: vLLM, scipy, statsmodels, matplotlib, seaborn, pandas, numpy, torch
-
-All dependencies are installed automatically by the script.
-
 ## Usage
 
 ### Google Colab (recommended)
