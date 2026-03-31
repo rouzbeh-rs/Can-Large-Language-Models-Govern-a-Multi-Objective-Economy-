@@ -1,0 +1,9 @@
+,,final_EUR_PI,final_EUR_PI,final_EUR_PI,final_EUR_PI,final_EUR_CU,final_EUR_CU,pi_distance_from_target,pi_distance_from_target,cu_time_in_target_pct,cu_time_in_target_pct,total_lever_activations,total_lever_activations,mean_decision_latency,total_tokens,truncated_decisions,truncation_rate
+,,mean,std,min,max,mean,std,mean,std,mean,std,mean,std,mean,mean,mean,mean
+strategy,cycle,,,,,,,,,,,,,,,,
+nonthinking,expansionary,5.477,0.141,5.384,5.639,0.818,0.062,16.523,0.141,25.893,27.331,16.0,6.245,9.876,2249.333,0.0,0.0
+nonthinking,recessionary,46.413,2.808,43.85,49.414,0.838,0.0,24.413,2.808,11.607,0.0,14.0,0.0,8.932,2032.0,0.0,0.0
+rulebased,expansionary,12.193,0.029,12.161,12.219,0.759,0.0,9.807,0.029,54.464,0.0,21.0,0.0,0.0,0.0,0.0,0.0
+rulebased,recessionary,27.332,2.088,25.597,29.649,0.837,0.0,5.332,2.088,11.607,0.0,25.333,1.528,0.0,0.0,0.0,0.0
+thinking,expansionary,5.448,0.524,5.144,6.053,0.923,0.069,16.552,0.524,3.571,3.093,14.0,0.0,141.953,32273.0,0.0,0.0
+thinking,recessionary,38.727,8.367,32.126,48.136,0.838,0.0,16.727,8.367,11.607,0.0,13.333,1.155,118.334,26949.0,0.0,0.0
